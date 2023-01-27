@@ -1,11 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./index.html"
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx}", "./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: "Poppins",
+        poppinsBold: "PoppinsBold",
+      },
+    },
   },
   plugins: [],
-}
+};
